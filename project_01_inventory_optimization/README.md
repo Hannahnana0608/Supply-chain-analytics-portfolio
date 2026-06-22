@@ -1,22 +1,24 @@
-﻿# Project 1: Demand-Driven Inventory Optimization
+﻿# Project 1: Demand Forecasting & Inventory Optimization
 
 ## Business Problem
-Retail companies need to balance product availability with inventory cost. Overstocking increases holding cost and slow-moving inventory risk, while understocking can lead to missed sales and poor service levels.
+Retail companies need to forecast future demand and maintain the right inventory level. Inaccurate demand planning can cause stockouts during high-demand periods and excess inventory during low-demand periods.
 
 ## Project Goal
-Use historical retail invoice transaction data to build a SKU-level inventory planning framework, including demand analysis, ABC-XYZ classification, EOQ, safety stock, reorder point, and inventory policy recommendations.
+Use historical store sales data to build a demand forecasting and inventory planning framework. The project will forecast future demand, evaluate demand variability, estimate safety stock, calculate reorder points, and identify high-risk product families that may require replenishment attention.
 
 ## Dataset
-Online Retail II UCI dataset from Kaggle.
+Store Sales – Time Series Forecasting dataset from Kaggle.
 
 ## Tools
 Python, Pandas, Power BI, GitHub
 
 ## Planned Outputs
-- Cleaned transaction dataset
-- SKU-level demand model
-- ABC-XYZ classification
-- EOQ, safety stock, and reorder point table
+- Cleaned sales dataset
+- Demand trend analysis
+- Forecast model output
+- Forecast vs. actual comparison
+- SKU / product-family inventory risk table
+- Safety stock and reorder point recommendation
 - Power BI dashboard
 - Business recommendation summary
 
