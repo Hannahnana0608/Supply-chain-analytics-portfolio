@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Do not upload raw Kaggle data
+project_01_inventory_optimization/data/raw/*
+!project_01_inventory_optimization/data/raw/.gitkeep
+
+# Optional: ignore large Power BI files if needed
+*.pbix
