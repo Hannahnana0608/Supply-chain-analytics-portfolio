@@ -10,7 +10,7 @@ Use historical store sales data to build a demand forecasting and inventory plan
 Store Sales – Time Series Forecasting dataset from Kaggle.
 
 ## Tools
-Python, Pandas, Power BI, GitHub
+VS code, Python, Pandas, Numpy, SQL, Power BI, GitHub
 
 ## Planned Outputs
 - Cleaned sales dataset
